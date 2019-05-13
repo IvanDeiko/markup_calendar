@@ -30,7 +30,7 @@ $days: (mon: 1, tue: 2, wed: 3, thu: 4, fri: 5, sat: 6, sun: 7);
 
 
 @for $count-days from 28 through 31 {
-  @for $day from 1 through $count-days {
+  @for $day from 28 through $count-days {
     .calendar-#{$count-days} {
 
       div:nth-child(#{$day}){
